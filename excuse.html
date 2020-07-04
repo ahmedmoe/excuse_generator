@@ -2,18 +2,49 @@
 <html>
 <head>
 <title>Excuse Generator</title>
+
+<link rel="stylesheet" href="./style.css">
+  
 </head>
 
 <body>
-<p>What kind of excuse do you want?</p>
-<label for="cars">Choose one:</label>
+<div class="header">
+	<h1>Excuse Generator</h1>
+  <div class="links">
+    <span>About</span>
+    <span>GitHub</span>
+    <span>Donate</span>
+  </div>
+</div>
 
-<select name="e_t" id="excuse_type" multiple>
-  <option value="volvo">Financial</option>
-  <option value="saab">Health</option>
-  <option value="opel">Family</option>
-  <option value="audi">Emergency</option>
+<div class="options">
+<p>What kind of excuse do you want?</p>
+  
+
+<select name="e_t" id="excuse_type">
+  <option value="Financial">Financial</option>
+  <option value="Health">Health</option>
+  <option value="Family">Family</option>
+  <option value="Emergency">Emergency</option>
 </select>
+  
+<label for="cars">Medium:</label>
+<select name="med" id="excuse_medium">
+  <option value="Financial">Financial</option>
+  <option value="Health">Health</option>
+</select>
+
+<div class="button">
+<button class="btn">
+  Generate!
+</button>
+</div>
+ 
+
+</div>
+  
+
+
 </body>
 
 </html>
