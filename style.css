@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+  }
+  .header h1 {
+    display: inline-block;
+    margin: 0px;
+  }
+  .links{
+  	float: right;
+    vertical-align: middle;
+  }
+  .options {
+    text-align: center;
+  }
