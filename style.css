@@ -1,14 +1,32 @@
 .header {
-    width: 100%;
-  }
-  .header h1 {
-    display: inline-block;
-    margin: 0px;
-  }
-  .links{
-  	float: right;
-    vertical-align: middle;
-  }
-  .options {
-    text-align: center;
-  }
+  position: relative;
+  width: 100vw;
+  background-color: aqua;
+  vertical-align: center;
+}
+.header h1 {
+  display: inline-block;
+  margin: 0px;
+  background-color: pink;
+}
+
+.links{
+  display: inline-block;
+  position: absolute;
+  right: 0%;
+  height: 100%;
+  background-color: blue;
+  text-align: center;
+}
+.links div{
+  display: inline-block;
+  background-color: green;
+  text-align: center;
+  width: 15vw;
+}
+.links div p{
+  margin: 9.25px 0px;
+}
+.options {
+  text-align: center;
+}

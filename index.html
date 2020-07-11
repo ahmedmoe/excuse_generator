@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html style="height:100%; width:100%;">
 <head>
-<title>Excuse Generator</title>
+<title id="header">Excuse Generator</title>
 
 <link rel="stylesheet" href="./style.css">
+<script src="./app.js" defer></script>
   
 </head>
 
-<body>
+<body style="border:0px; margin:0px; height:100%; width:100%;">
 <div class="header">
 	<h1>Excuse Generator</h1>
   <div class="links">
-    <span>About</span>
-    <span>GitHub</span>
-    <span>Donate</span>
+     <div><p>About</p></div>
+     <div><p>GitHub</p></div>
+     <div><p>Donate</p></div>
   </div>
 </div>
 
@@ -21,17 +22,16 @@
 <p>What kind of excuse do you want?</p>
   
 
-<select name="e_t" id="excuse_type">
-  <option value="Financial">Financial</option>
+<select name="excuse_type" id="excuse_type">
+  <!-- <option value="Financial">Financial</option>
   <option value="Health">Health</option>
   <option value="Family">Family</option>
-  <option value="Emergency">Emergency</option>
+  <option value="Emergency">Emergency</option> -->
 </select>
   
-<label for="cars">Medium:</label>
-<select name="med" id="excuse_medium">
-  <option value="Financial">Financial</option>
-  <option value="Health">Health</option>
+<select name="excuse_medium" id="excuse_medium">
+  <!-- <option value="Financial">Financial</option>
+  <option value="Health">Health</option> -->
 </select>
 
 <div class="button">

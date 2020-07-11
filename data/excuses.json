@@ -1,0 +1,4 @@
+{
+    "excuse_types" : ["Health", "Family", "Emergergency"],
+    "excuse_medium": ["SMS", "Email"]
+}
