@@ -1,4 +1,6 @@
 {
     "excuse_types" : ["Health", "Family", "Emergergency"],
-    "excuse_medium": ["SMS", "Email"]
+    "excuse_medium": ["SMS", "Email"],
+    "key": "value",
+    "key2": ["value", "value"]
 }
